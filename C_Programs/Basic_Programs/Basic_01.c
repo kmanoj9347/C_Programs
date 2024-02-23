@@ -12,8 +12,17 @@
 #include<stdio.h>
 void main()
 {
-int J=5;
-int K=2;
-printf("%d",J+++K);
+int n= 11;
+for(int i = 0; i < n; i++){
+    for(int j = 0; j <n; j++){
+        if(i==n-1 || i ==n/2){
+            printf("%d ",1);
+    }
+    else{
+        printf(" ");
+    }
+printf("\n");
+    }
+}
 }
 
